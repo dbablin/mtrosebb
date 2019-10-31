@@ -1,0 +1,12 @@
+.jumbotron {
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar {
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
