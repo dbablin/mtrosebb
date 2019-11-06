@@ -1,0 +1,28 @@
+$color-primary: #df9f20;
+$color-secondary: #33c5ff;
+$color-accent: #009933;
+$font-headings: 'Rubik', sans-serif;
+$font-body: 'ZCOOL XiaoWei', serif;
+
+.jumbotron {
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-accent);
+}
+
+.navbar {
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+}
+
+p {
+    font-family: $font-body;
+}
+
+h1, h2, h3, h4 {
+    font-family: $font-headings;
+}
