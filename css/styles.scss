@@ -1,16 +1,19 @@
-$color-primary: #df9f20;
-$color-secondary: #33c5ff;
+$color-primary: #7a5202b7;
+$color-secondary: #6ac2fd80;
 $color-accent: #009933;
+$color-headings: darkslategray;
+$color-transparent-black: rgba(0, 0, 0, 0.6);
 $font-headings: 'Rubik', sans-serif;
 $font-body: 'ZCOOL XiaoWei', serif;
 
 .jumbotron {
     margin: 0;
     padding: 20px;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-accent);
+    background-image: url("../img/mtrose.jpg");
 }
 
 .navbar {
+    background-color: $color-primary;
 }
 
 #carouselButton {
@@ -19,10 +22,24 @@ $font-body: 'ZCOOL XiaoWei', serif;
     bottom: 0; 
 }
 
-p {
+.carousel-caption {
+    background-color: $color-transparent-black;
+}
+
+body {
     font-family: $font-body;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: $font-headings;
+    color: $color-headings;
+}
+
+.carouselHeading {
+    color: white;
+}
+
+.site-footer {
+    background-image: linear-gradient(white, $color-secondary);
+    padding: 15px 0;
 }

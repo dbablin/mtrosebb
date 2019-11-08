@@ -11,4 +11,7 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+    $("#contactButton").click(function(){
+        $("#contactModal").modal("show");
+    }); 
 });

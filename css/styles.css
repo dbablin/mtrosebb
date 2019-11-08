@@ -1,15 +1,29 @@
 .jumbotron {
   margin: 0;
   padding: 20px;
-  background-image: linear-gradient(to right, #df9f20, #33c5ff, #009933); }
+  background-image: url("../img/mtrose.jpg"); }
+
+.navbar {
+  background-color: #7a5202b7; }
 
 #carouselButton {
   position: absolute;
   right: 0;
   bottom: 0; }
 
-p {
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+body {
   font-family: "ZCOOL XiaoWei", serif; }
 
-h1, h2, h3, h4 {
-  font-family: "Rubik", sans-serif; }
+h1, h2, h3, h4, h5 {
+  font-family: "Rubik", sans-serif;
+  color: darkslategray; }
+
+.carouselHeading {
+  color: white; }
+
+.site-footer {
+  background-image: linear-gradient(white, #6ac2fd80);
+  padding: 15px 0; }
